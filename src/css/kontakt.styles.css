@@ -1,0 +1,88 @@
+.kontakt-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.kontakt-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.kontakt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.kontakt-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kontakt-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.filiale h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.filiale address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.zeitplan h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #666;
+}
+
+.zeitplan p {
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.zeitplan-extra {
+    font-style: italic;
+    margin-top: 10px;
+    color: #888;
+}
+
+.kontakt-hinweis {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.kontakt-hinweis p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.kontakt-hinweis a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.kontakt-hinweis a:hover {
+    text-decoration: underline;
+}
