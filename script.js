@@ -45,20 +45,6 @@ hamburgerMenu.addEventListener('click', () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function createImageViewer(props) {
     const gallerySelector = props.gallerySelector || '.gallery-item img';
     const viewerSelector = props.viewerSelector || '#image-viewer';
@@ -105,6 +91,13 @@ createImageViewer({
 
 createImageViewer({
     gallerySelector: '.image-container img', // Selektor für die Bilder der Galerie
+    viewerSelector: '#image-viewer',        // Selektor für den Viewer
+    viewerImgSelector: '#viewer-img',       // Selektor für das Bild im Viewer
+    closeButtonSelector: '#close-viewer'    // Selektor für den Schließen-Button
+});
+
+createImageViewer({
+    gallerySelector: '.section img', // Selektor für die Bilder der Galerie
     viewerSelector: '#image-viewer',        // Selektor für den Viewer
     viewerImgSelector: '#viewer-img',       // Selektor für das Bild im Viewer
     closeButtonSelector: '#close-viewer'    // Selektor für den Schließen-Button

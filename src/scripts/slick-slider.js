@@ -43,13 +43,24 @@ $(document).ready(function(){
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 1
         }
       },
     ]
 });
 $('.block').slick({
-  slidesToShow: 4
+  slidesToShow: 4,
+  responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+  ]
 });
 
     
