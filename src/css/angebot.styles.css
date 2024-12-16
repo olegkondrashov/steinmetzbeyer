@@ -1,0 +1,22 @@
+
+.angebot {
+    text-align: center;
+    padding: 50px;
+}
+  
+.angebot-pdf {
+    width: 768px;
+    height: 1200px;
+}
+
+@media screen and (max-width: 769px){
+    
+    .angebot {
+        padding: 0;
+    }
+  
+    .angebot-pdf {
+        width: 80vw;
+        height: 700px;
+    }
+}
