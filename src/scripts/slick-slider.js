@@ -1,15 +1,13 @@
 
 $(document).ready(function(){
     $('.slider-wrapper-leistungen').slick({
-        centerMode: true,
-        centerPadding: '0',
+        infinite: false,
         slidesToShow: 3,
         responsive: [
           {
             breakpoint: 769,
             settings: {
               arrows: false,
-              centerMode: true,
               centerPadding: '40px',
               slidesToShow: 1
             }
@@ -18,6 +16,7 @@ $(document).ready(function(){
     });
 
     $('.gallery-grid').slick({
+      infinite: false,
       centerPadding: '0',
       slidesToShow: 7,
       responsive: [
@@ -33,7 +32,7 @@ $(document).ready(function(){
       ]
   });
   $('.slider-wrapper').slick({
-    centerMode: true,
+    infinite: false,
     centerPadding: '0',
     slidesToShow: 3,
     responsive: [
@@ -41,7 +40,6 @@ $(document).ready(function(){
         breakpoint: 769,
         settings: {
           arrows: false,
-          centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1
         }
@@ -49,13 +47,13 @@ $(document).ready(function(){
     ]
 });
 $('.block').slick({
+  infinite: false,
   slidesToShow: 4,
   responsive: [
     {
       breakpoint: 769,
       settings: {
         arrows: false,
-        centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
       }

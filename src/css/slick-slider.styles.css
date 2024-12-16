@@ -11,3 +11,7 @@
 .slick-list {
     width: 95vw;
 }
+
+.slick-disabled {
+    opacity: .2 !important;
+}
